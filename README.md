@@ -1,4 +1,3 @@
 # Inventory Management System
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/chelasea10/pen/zYQdEdO](https://codepen.io/chelasea10/pen/zYQdEdO).
-
+Inventory Management System, run on Codepen (docs in making)
