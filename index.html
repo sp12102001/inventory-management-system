@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Inventory Management System</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>GreenGrocer Inventory Management System</h1>
+    </div>
+    <form id="inventory-form">
+      <div class="form-group">
+        <label for="item-name">Product Name:</label>
+        <input type="text" id="item-name" class="form-control" placeholder="Enter product name">
+      </div>
+      <div class="form-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" class="form-control" placeholder="Enter quantity">
+      </div>
+      <div class="form-group">
+        <label for="supplier">Supplier:</label>
+        <input type="text" id="supplier" class="form-control" placeholder="Enter supplier">
+      </div>
+      <button class="btn" id="add-item-btn">Add Product</button>
+    </form>
+    <table id="inventory-table" class="table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Supplier</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="inventory-list">
+        <!-- inventory list will be displayed here -->
+      </tbody>
+    </table>
+    <div id="alert-message" class="alert"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
